@@ -14,9 +14,9 @@ console.log('PORT', PORT);
 
 app.use(json());
 
-// app.use('/', (req, res) => {
-//   res.send('ahoj');
-// });
+app.use('/', (req, res) => {
+  res.send('ahoj');
+});
 
 app.use('/todos', todoRoutes);
 

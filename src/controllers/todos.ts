@@ -25,6 +25,10 @@ export const createTodo: RequestHandler = (req, res, next) => {
 };
 
 export const getTodos: RequestHandler = (req, res, next) => {
+  res.json({ todos: TODOS });
+};
+
+export const getTodosList: RequestHandler = (req, res, next) => {
   res.send({ todos: TODOS });
 };
 

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/24175387-d573-48c7-93c0-8af247253519/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/node-ts-api",
+    "appService.deploySubpath": "dist"
+}
