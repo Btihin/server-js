@@ -25,7 +25,7 @@ export const createTodo: RequestHandler = (req, res, next) => {
 };
 
 export const getTodos: RequestHandler = (req, res, next) => {
-  res.json({ todos: TODOS });
+  res.send({ todos: TODOS });
 };
 
 export const updateTodos: RequestHandler<{ id: string }> = (req, res, next) => {
